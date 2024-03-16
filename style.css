@@ -1,6 +1,50 @@
-* {
-    background-color: bisque;
+body {
+    font-family: 'Roboto';
+}
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
 }
 h1{
     color:chocolate;
+}
+
+
+.container {
+    width: 1200px auto;
+}
+
+.content-post-left {
+    display: flex;
+    align-items: flex-start;
+}
+.post-left-1 {
+    width: 60%;
+}
+.post-left-2{
+    width: 40%;
+}
+
+.post-left-2 ul{
+    padding: 0;
+    margin: 0;
+}
+
+.post-left-2 ul li {
+    margin-bottom: 10px;
+}
+.post-left-2 ul li a {
+    color: #161414c9;
+} 
+
+.title-h1 img {
+    width: 100%;
+    max-width:600px
+}
+.title {
+    font-size: 18px;
+    color: red;
 }
