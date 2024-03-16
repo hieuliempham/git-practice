@@ -18,6 +18,44 @@ h1{
 }
 
 
+  .advertisement 
+  { margin: 15px 0; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+}
+  .advertisement h2 
+  { 
+    margin: 0 0 10px;
+ }
+  .advertisement button
+   { 
+    background-color: blue; 
+    color: white; 
+    padding: 10px 20px;
+     border: none;
+      cursor: pointer; }
+  .footer { 
+    background-color: #333;
+     padding: 5px; 
+     text-align: center;
+      color: white; 
+    }
+    .content-post-right {
+        display: flex;
+        justify-content: flex-end; /* Dịch nội dung sang bên phải */
+        /* Thêm các thuộc tính khác nếu cần */
+    }
+    .content-post-right span {
+        display: inline; /* Đảm bảo phần tử có thể chứa kích thước và padding */
+        padding: 10px; /* Điều chỉnh padding tùy theo nhu cầu */
+        border: 2px solid #ccc; /* Đặt độ dày và màu của đường viền */
+        background-color: #f4f4f4; /* Màu nền của hình vuông */
+        width: 52px; /* Đặt chiều rộng của hình vuông */
+        height: 10px; /* Đặt chiều cao của hình vuông */
+        margin-left: 10px;
+    }
+
+
 .container {
     width: 1200px auto;
 }
@@ -53,6 +91,7 @@ h1{
     font-size: 18px;
     color: red;
 }
+
 
 .navbar {
     /* background-color: #fff; */
