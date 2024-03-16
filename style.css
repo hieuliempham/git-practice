@@ -112,6 +112,7 @@ h1{
 
 
 .navbar {
+    margin-top: 10px;
     /* background-color: #fff; */
     overflow: auto;
     list-style: none;
@@ -138,6 +139,8 @@ h1{
     color: white;
   }
   .navbar ul {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -169,6 +172,10 @@ h1{
 
 #news-page button{
     font-size: 20px;
+    background: #00000040;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
 }
 
 #news-page .like{
