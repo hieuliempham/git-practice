@@ -200,3 +200,7 @@ h1{
     align-items: center;
     justify-content: space-between;
 }
+
+#header .logo img {
+   max-width: 100%;
+}
