@@ -24,7 +24,7 @@ h1{
 }
 
 .container {
-    width: 1400px ;
+    /* width: 1400px ; */
     margin: 0 auto;
 }
 
@@ -76,7 +76,7 @@ h1{
 }
 .post-left-2{
     width: 30%;
-    padding: 0px 30px;
+
 }
 
 .post-left-2 ul{
@@ -103,7 +103,7 @@ h1{
 
 .title-h1 img {
     width: 100%;
-    max-width:650px;
+    max-width:700px;
 }
 .title {
     font-size: 18px;
@@ -144,6 +144,7 @@ h1{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    gap: 10px;
   }
 
   .post-small {
@@ -158,6 +159,7 @@ h1{
     overflow: hidden;
     text-overflow: ellipsis;
     word-break: break-word;
+    width: 165px;
 }
 
 .advertisement img {
