@@ -16,13 +16,19 @@ ul {
 h1{
     color:chocolate;
 }
-
-
-  .advertisement 
-  { margin: 15px 0; 
-    padding: 20px; 
-    border: 1px solid #ddd; 
+.header-right {
+    margin-bottom: 10px;
 }
+.header-right p{
+    margin: 0;
+}
+
+.container {
+    width: 1400px ;
+    margin: 0 auto;
+}
+
+
   .advertisement h2 
   { 
     margin: 0 0 10px;
@@ -40,11 +46,12 @@ h1{
      text-align: center;
       color: white; 
     }
-    .content-post-right {
+
+    .content-post {
         display: flex;
-        justify-content: flex-end; /* Dịch nội dung sang bên phải */
-        /* Thêm các thuộc tính khác nếu cần */
+        align-items: flex-start;
     }
+ 
     .content-post-right span {
         display: inline; /* Đảm bảo phần tử có thể chứa kích thước và padding */
         padding: 10px; /* Điều chỉnh padding tùy theo nhu cầu */
@@ -54,30 +61,41 @@ h1{
         height: 10px; /* Đặt chiều cao của hình vuông */
         margin-left: 10px;
     }
+    .content-post-right {
+        width: 40%;
+    }
 
-
-.container {
-    width: 1200px auto;
-}
 
 .content-post-left {
     display: flex;
     align-items: flex-start;
+   
 }
 .post-left-1 {
-    width: 60%;
+    width: 70%;
 }
 .post-left-2{
-    width: 40%;
+    width: 30%;
+    padding: 0px 30px;
 }
 
 .post-left-2 ul{
     padding: 0;
     margin: 0;
 }
+.time {
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 6px;
+    background-color: #00000038;
+    margin-right: 10px;
+}
 
 .post-left-2 ul li {
     margin-bottom: 10px;
+    max-width: 222px;
+    border-bottom: 1px solid #0000007a;
+    padding-bottom: 15px;
 }
 .post-left-2 ul li a {
     color: #161414c9;
@@ -85,7 +103,7 @@ h1{
 
 .title-h1 img {
     width: 100%;
-    max-width:600px
+    max-width:650px;
 }
 .title {
     font-size: 18px;
@@ -125,3 +143,60 @@ h1{
     padding: 0;
   }
 
+  .post-small {
+    display: flex;
+    align-items: flex-start;
+}
+
+.post-small-tag p{
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.advertisement img {
+    border: 1px solid;
+}
+
+#news-page .topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#news-page button{
+    font-size: 20px;
+}
+
+#news-page .like{
+    background-color: #3B5998;
+    color: #FFF;
+    border-radius: 6px;
+}
+
+#news-page .follow{
+    background-color: #1DA1F2;
+    color: #FFF;
+    border-radius: 6px;
+}
+
+#news-page .youtube{
+    background-color: #E50914;
+    color: #FFF;
+    border-radius: 6px;
+}
+
+.topbar{
+    display: flex;
+}
+
+
+/* Header */
+#header .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
